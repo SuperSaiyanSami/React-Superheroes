@@ -31,6 +31,7 @@ class App extends Component {
         <h1>React Tutorial - SuperHeroes Collection</h1>
         <p>Add new Superheroes or Delete them.</p>
         <Table characterData={this.state.characters} removeCharacter={this.removeCharacter} />
+        <h1>Add New Superhero</h1>
         <Form handleSubmit={this.handleSubmit}/>
       </div>
     );
